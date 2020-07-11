@@ -1,0 +1,65 @@
+{
+  "name": "backend-v4",
+  "version": "1.0.0",
+  "description": "backend node js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tunnel": "ngrok http 8080",
+    "dev": "nodemon --inspect index.js",
+    "heroku-postbuild": "npm install --production",
+    "preinstall": "node preinstall.js"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^5.0.1",
+    "@googlemaps/google-maps-services-js": "^2.6.1",
+    "actions-on-google": "^2.6.0",
+    "axios": "^0.19.2",
+    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "dialogflow": "^0.8.2",
+    "dialogflow-fulfillment": "^0.6.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "heroku": "^7.42.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.5.7",
+    "mongoose": "^5.9.15",
+    "node-fetch": "^2.6.0",
+    "node-geocoder": "^3.27.0",
+    "nodemailer": "^6.4.10",
+    "passport": "^0.4.1",
+    "pg": "^8.2.1",
+    "pg-hstore": "^2.3.3",
+    "pg-promise": "^10.5.6",
+    "postgresql": "0.0.1",
+    "proxy": "^1.0.1",
+    "pusher": "^3.0.1",
+    "sequelize": "^5.21.12",
+    "sequelize-cli": "^5.5.1",
+    "unirest": "^0.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "addons": [
+    {
+      "plan": "heroku-postgresql:hobby-dev",
+      "options": {
+        "version": "9.5"
+      }
+    }
+  ],
+  "author": "BOGA ADELINA DENISA",
+  "license": "ISC"
+}

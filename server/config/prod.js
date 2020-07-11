@@ -1,0 +1,15 @@
+module.exports = {
+    googleProjectID_WEATHER: process.env.GOOGLE_PROJECT_ID_WEATHER,
+    dialogFlowSessionID_WEATHER: process.env.DIALOGFLOW_SESSION_ID_WEATHER,
+    dialogFlowSessionLanguageCode: process.env.DIALOGFLOW_LANGUAGE_CODE,
+    googleClientEmail_WEATHER: process.env.GOOGLE_CLIENT_EMAIL_WEATHER,
+    googlePrivateKey_WEATHER: process.env.GOOGLE_PRIVATE_KEY_WEATHER,
+    googleProjectID_COVID: process.env.GOOGLE_PROJECT_ID_COVID,
+    dialogFlowSessionID_COVID: process.env.DIALOGFLOW_SESSION_ID_COVID,
+    googleClientEmail_COVID: process.env.GOOGLE_CLIENT_EMAIL_COVID,
+    googlePrivateKey_COVID: process.env.GOOGLE_PRIVATE_KEY_COVID,
+    googleProjectID_MOTIVATIONAL: process.env.GOOGLE_PROJECT_ID_MOTIVATIONAL,
+    dialogFlowSessionID_MOTIVATIONAL: process.env.DIALOGFLOW_SESSION_ID_MOTIVATIONAL,
+    googleClientEmail_MOTIVATIONAL: process.env.GOOGLE_CLIENT_EMAIL_MOTIVATIONAL,
+    googlePrivateKey_MOTIVATIONAL: process.env.GOOGLE_PRIVATE_KEY_MOTIVATIONAL,
+}

@@ -1,0 +1,12 @@
+npm install
+
+config module dev
+
+set GOOGLE_APPLICATION_CREDENTIALS=C:/Users/Ade/Desktop/KEYYYYY/YOURFILE.json
+
+config module production
+
+gcloud beta auth application-default login
+
+SET HEROKU .ENV : heroku config:set API_KEY_NAME=XXXXX
+

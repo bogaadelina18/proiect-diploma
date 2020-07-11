@@ -1,0 +1,11 @@
+/node_modules
+dev.js
+.env
+weather.js
+covid.js
+motivational.js
+sequelize.js
+queries.js
+.vscode
+/gcp
+file.json
